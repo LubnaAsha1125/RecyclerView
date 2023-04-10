@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#B2BBD4">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/header"
@@ -14,12 +13,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/image_list">
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/input"
-            android:background="@color/white"
             android:layout_width="270sp"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toTopOf="@id/image_list"
@@ -45,8 +42,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/image_list"
         android:layout_width="match_parent"
-        android:layout_height="550dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="580dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,12 +51,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="All images and data is sourced from Pixabay API"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/image_list"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="All images and data is sourced from Pixabay API"
-        android:textSize="15dp"/>
+        tools:ignore="TextSizeCheck" />
 
 
 

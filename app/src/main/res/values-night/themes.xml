@@ -2,15 +2,29 @@
     <!-- Base application theme. -->
     <style name="Theme.RecyclerView" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">#60495A</item>
+        <item name="colorPrimaryVariant">#5D678B</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?colorPrimary</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">#3F3244</item>
+    </style>
+
+    <style name="TextAppearanceUser">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#A0D4CD</item>
+        <item name="android:fontFamily">@font/benchnine_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearanceInfo">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/benchnine_bold</item>
     </style>
 </resources>

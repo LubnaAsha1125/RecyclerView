@@ -1,17 +1,16 @@
-# RecyclerView
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
 Submitted by: **Lubna Asha**
 
-Time spent: **6** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Summary
 
-**Pixibay** is an android app that **uses the Pixibay API to allow users to search and scroll for unique images posted on the website. Along with the image, the app shows the user of who posted the image, how many likes the image received, and tags related to each image**
+**PixiBay Search** is an android app that **uses the PixiBay API to allow users to search and scroll different images posted by user of PixiBay**
 
-If I had to describe this project in three (3) emojis, they would be: **🌤️😭😌**
+If I had to describe this project in three (3) emojis, they would be: **🥸😎🥳**
 
 ## Application Features
 
@@ -19,15 +18,16 @@ If I had to describe this project in three (3) emojis, they would be: **🌤️�
 
 The following REQUIRED features are completed:
 
-- [X] Make an API call to an API of your choice using AsyncHTTPClient
-- [X] Implement a RecyclerView to display a list of entries from the API
-- [X] Display at least three (3) pieces of data for each RecyclerView item
+- [X] App contains a RecyclerView that displays a list of scrollable data
+- [X] App displays at least two (2) pieces of data for each RecyclerView item
+- [X] Use a downloadable font with custom color and size
+- [X] Modify the theme of the app in `themes.xml`
+- [X] Define and apply at least one style in `styles.xml`
 
 The following STRETCH features are implemented:
 
-- [X] Add a UI element for the user to interact with API further
-- [X] Show a `Toast` or `Snackbar` when an item is clicked
-- [X] Add item dividers with `DividerItemDecoration`
+- [X] Update the night theme to use different versions of styles when in dark mode
+- [ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
 
@@ -37,9 +37,9 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://user-images.githubusercontent.com/92476592/230524982-5ab6c999-7205-4b64-861c-760293d2bf27.gif' width=300/>
+<img src='https://user-images.githubusercontent.com/92476592/231014338-c443e7f3-ed28-47d2-97cf-15c6e3a4d801.mov' width='100'/>
 
-GIF created with **MacOS Screen record**
+GIF created with **Mac screen record**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
